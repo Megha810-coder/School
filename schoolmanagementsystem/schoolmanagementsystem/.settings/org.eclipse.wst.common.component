@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="schoolmanagementsystem">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="tomcat-servlet-api-7.0.93.wso2v1.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/tomcat-servlet-api-7.0.93.wso2v1.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="el-api-6.0.53.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/el-api-6.0.53.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsp-api-6.0.53.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/jsp-api-6.0.53.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/mysql-connector.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api-6.0.53.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/servlet-api-6.0.53.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="schoolmanagementsystem"/>
+        <property name="java-output-path" value="/schoolmanagementsystem/build/classes"/>
+    </wb-module>
+</project-modules>
